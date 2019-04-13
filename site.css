@@ -1,0 +1,566 @@
+body
+{
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: #f3f3f3;
+  color: #999;
+}
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+.main
+{
+  
+}
+.div-1
+{
+  height: 580px;
+  width: 100%;
+  
+
+}
+.div-1 img 
+{
+  width: 100%;
+  height: 580px;
+
+
+}
+
+.menu
+{
+  width: 1150px;
+  height: 80px;
+  background-color: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  left: 85px;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0px 1px 10px 0px black;
+
+  top:0;
+}
+.menu img
+{
+  float: left;
+  padding: 30px;
+  margin-right: 50px; 
+}
+.hader
+{
+  padding-left: 60px;
+
+}
+.hader  ul a li
+{
+  float: left;
+  padding: 30px;
+}
+.active
+{
+  background-color: skyblue;
+  color: white;
+}
+.hader  ul a li:hover
+{
+  background-color: skyblue;
+  color: white;
+  padding: 30px  30px;
+   
+}
+
+.hader  ul  a
+{
+  text-decoration: none;
+  color: grey;
+  /*font-weight: bold;*/
+  font-size: 17px;
+
+  transition: 0.5s;
+}
+
+    /* Servies - Box */
+
+.title
+{
+  margin-top: -350px;
+  margin-bottom: 0;
+  color: white;
+
+  }
+.title h1
+{
+  font-size:70px;
+  padding-left:300px;
+  overflow: hidden; 
+
+    
+}
+.title p
+{
+  font-size:22px;
+  padding-left:285px;
+  line-height: 30px;
+  padding-bottom: 200px;
+  overflow: hidden;
+}
+.sub-div
+{
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+ padding-top: 10px;
+ margin-top: -50px;
+  width: 1150px;
+  height: 500px;
+  margin-left:auto;
+  margin-right: auto;
+  position: relative;
+    
+  
+  }
+.sub-main
+{
+    background-color: white;
+    margin:40px; 
+  
+}
+.apple
+{
+    
+    height: 215px;
+    margin:auto;
+      text-align: center;
+}
+
+.apple p
+{
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  color: #999;
+}
+.sub-main  h3
+{
+  padding: 10px;
+  color: grey;
+}
+.sub-main  i
+{
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  text-align: center; 
+  font-size: 30px;
+  padding: 20px;
+}
+
+    /* Portfolio Box */
+
+.Portfolio
+{
+  background-color:#e9e9e9;
+   padding-top: 10px;
+  width: 1150px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;    
+
+}
+.box-center
+{
+padding: 50px 30px;
+
+}
+.box-center h1
+{
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 48px;
+  color: grey;
+}
+.box-center p
+{
+ margin: 40px 80px;
+ font-size: 20px;
+ text-align: center;
+ color: grey;
+}
+.box
+{
+    text-align: center;
+    padding: 10px 350px;
+    font-size: 15px;
+
+}
+.box button
+{
+  background-color: skyblue;
+  border:none;
+  border-radius: 3px;
+  padding: 8px;
+  color: white;
+}
+.box button:hover
+{
+  background-color: #1586c3;
+  transition: 0.5s;
+}
+.img-box
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+ margin-right: auto;
+ margin-left: auto;
+}
+.img-box img
+{
+  width: 100%;
+  height: 160px;
+}
+.img-box img:hover
+{
+  background-color: white;
+  opacity: 0.2;
+}
+.img-border
+{
+  height: 180px;
+  width: 240px;
+  border:solid 10px  white;
+  position: relative;
+  margin-left: 25px;
+  /*margin-right: auto;*/
+  margin-bottom: 50px;
+  /*box-sizing: border-box;*/
+/*  overflow: hidden;*/
+}
+.img-title h4
+{
+  text-align: center;
+  padding: 4px 20px;
+  color: grey;
+  font-size: 13px;
+  background-color: white;
+}
+
+
+.anime{
+
+  height: 165px;
+  width: 240px;
+  background-color: rgb(255,255,255,0.719);
+position: absolute;
+top: 0;
+opacity: 0;
+transition: 0.5s;
+
+}
+
+.anime i{
+border-radius: 10px;
+  padding: 8px 10px;
+  margin:70px 0px 0px 100px;
+  background-color:#ac2925;
+  color: white;
+
+}
+
+.img-border:hover .anime{
+  opacity: 1;
+
+}
+
+/*.anime:hover .img-border img{
+background-color: white;
+  opacity: 0.2;
+  
+}*/
+
+
+
+/* Pricings Box */
+.Pricings-box
+{
+  background-color:#f9f9f9;
+   padding-top: 10px;
+  width: 1150px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto; 
+}
+.Pricings-title
+{
+   margin: 40px 80px;
+ font-size: 20px;
+ text-align: center;
+ color: grey;
+
+}
+.Pricings-title h1
+{
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 48px;
+  color: grey;
+}
+.Pricings-title p
+{
+ margin: 40px 80px;
+ font-size: 20px;
+ text-align: center;
+ color: grey;
+ padding: 0px  110px;
+ padding-bottom: 70px;
+}
+.center-box
+{
+  width: 340px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+.Basic
+{
+background: #fff;
+list-style: none;
+margin: 0 0 20px;
+text-align: center;
+padding: 0;
+border-bottom: 1px solid #e1e1e1;
+}
+.Basic li
+{
+  border-bottom: 1px dashed #eee;
+  padding: 10px 0;
+  margin: 0 90px;
+  color: grey;
+}
+.name
+{
+  padding: 15px 0;
+font-size: 18px;
+font-weight: 700;
+color: grey;
+}
+.price
+{
+  color: #666;
+padding: 15px 0;
+font-size: 48px;
+
+}
+.price  li
+{
+  padding: 10px 0;
+margin: 0 15px;
+border-bottom: 1px dashed #eee;
+}
+.button
+{
+  background-color: #52b6ec;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.button:hover
+{
+  background-color: #52b6; 
+  border: none;
+}
+.button a
+{
+  font-size: 20px;
+  color: white;
+  text-decoration:none;
+
+}
+/* team meet Box */
+.team-box
+{
+    background-color:#fff;
+   padding-top: 10px;
+  width: 1150px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto; 
+  text-align: center;
+}
+.team-box  h3
+{
+  padding: 10px;
+}
+.team-box  h5
+{
+  padding: 10px;
+}
+.Meet-box
+{
+  margin: 40px 80px;
+ font-size: 20px;
+ text-align: center;
+ color: grey;
+
+}
+.Meet-box h1
+{
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 48px;
+  color: grey;
+}
+.Meet-box p
+{
+   margin: 40px 80px;
+ font-size: 20px;
+ text-align: center;
+ color: grey;
+ padding: 0px  110px;
+ padding-bottom: 70px;
+}
+.team-img
+{
+    height: 240px;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: grey;
+
+
+}
+.team-img img
+{  
+  border: 2px solid grey;
+  padding: 3px;
+   border-radius: 50% ; 
+  height: 240px;
+  width: 240px;
+}  
+   /* foooter - box*/
+.footer
+{
+background-color: #222;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+color: #999;
+}
+.Contact-box
+{
+  /*padding: 75px;*/
+  
+}
+.Contact-box h2
+{
+  font-size: 30px;
+  padding: 75px 0px 10px 50px;
+  color: #777;
+}
+
+.Contact-box p
+{
+  
+  padding: 0px 0px 10px 50px;
+}
+.Contact-box input
+{
+  width: 250px;
+  height: 35px;
+  margin:0px 0px 15px 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  border: none;
+    border-radius: 3px;
+}
+.Contact-box textarea
+{
+   width: 550px;
+  height: 220px;
+  margin:0px 0px 15px 50px; 
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+
+}
+.button
+{
+  height: 50px;
+  width: 160px;
+  background-color:#d9534f;
+  padding: 10px 10px;
+  color: white;
+  box-sizing: border-box;
+  margin:0px 0px 15px 50px;
+}
+.button a
+{
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.button a:hover
+{
+  background-color: pink;
+  transition: 0.5s;
+}
+.address
+{
+  height: 40px;
+  width: 280px; 
+}
+.address address
+{
+  display: block;
+margin-bottom: 20px;
+font-style: normal;
+line-height: 1.428571429;
+  padding: 0px 0px 0px 70px;
+}
+.Connect
+{
+  padding: 130px 0px 0px 70px;
+  color: #777;
+}
+.social
+{
+ padding: 0px 0px 0px 90px; 
+}
+.social  li i
+{
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  background-color: #4f7dd4;
+  border-radius: 50%;
+}
+
+.social  li a
+{
+  font-size: 20px;
+  text-decoration:none; 
+  text-transform: capitalize;
+  color: #777;
+}
+.social  li a:hover
+{
+color: skyblue;
+}
+/*Sub-footer*/
+.sub-footer
+{
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 22px;
+  background-color: #f3f3f3;
+color: #999;
+}
+.sub-footer  img
+{
+float: right;
+padding-right: 50px;
+}
